@@ -160,7 +160,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClassSecInfoTS.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="TSAccessRight.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TS Security Editor.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
